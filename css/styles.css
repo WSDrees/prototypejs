@@ -1,0 +1,39 @@
+#container div, #container span
+
+{
+
+    width: 150px;
+
+    height: 150px;
+
+    display: block;
+
+    float: left;
+
+    border: 1px solid black;
+
+}
+
+#container .highlight
+
+{
+
+    border: 3px solid orange;
+
+}
+
+p
+
+{
+
+    clear: left;
+
+}
+
+p input
+
+{
+
+    display: block;
+
+}
