@@ -3,10 +3,6 @@
 <meta charset="UTF-8">
 
 <title>Prototypejs Testing</title>
-
-<script src="js/prototype.js" type="text/javascript"></script>
-<script src="js/main.js" type="text/javascript"></script>
-
 <link rel="stylesheet" href="css/styles.css">
 
 <body>
@@ -23,10 +19,22 @@
 
 <p><strong>Toggles:</strong></p>
 
-<input type="button" onClick="javascript:test_byid();" value="id='second'" />
+<input type="button" onClick="test_byid();" value="id='second'" />
 <input type="button" onClick="test_byclass();" value="class='test'" />
 <input type="button" onClick="test_bytag();" value="tag is 'span'" />
 
+<br>
 
+<input type="button" onClick="test_byfirstresult();" value="the first object where tag is 'span'" />
+<input type="button" onClick="test_byfirstresult();" value="the first object where tag is 'span'" />
+<input type="button" onClick="test_byfunction();" value="tag is 'span', but id is not 'second'" />
+
+<br>
+
+<div id="myclicker">Click me!</div>
+
+
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
